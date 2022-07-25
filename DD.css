@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: url('dd imgs/p.jpg');
+    color:white;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right:34px;
+    top: 20px;
+
+}
+.mid{
+    margin-left: 250px;
+    display: block;
+}
+.navbar li{
+    display: inline;
+    padding: 23px 34px;
+    font-size: 25px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    text-decoration:underline;
+    color : gray;
+}
+.btn{
+    background-color: black;
+    color:white;
+    padding: 3px 4px;
+    margin: 0px 9px;
+    border: 3px solid white;
+
+}
+.container{
+    display: inline-block;
+    margin-left: 900px ;
+    margin-top: 150px;
+    border: 3px solid white;
+    padding: 10px 10px;
+
+}
